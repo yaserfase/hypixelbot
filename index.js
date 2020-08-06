@@ -166,7 +166,7 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join("\n")}
 **Now Playing: \`${serverQueue.songs[0].title}\`**
         `);
 
-    } else if (command === "pause") {
+    } else if (command === "pause""p") {
         if (serverQueue && serverQueue.playing) {
             serverQueue.playing = false;
             serverQueue.connection.dispatcher.pause();
