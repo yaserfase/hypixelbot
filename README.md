@@ -1,2 +1,0 @@
-# hypixelbot
-hypixel
